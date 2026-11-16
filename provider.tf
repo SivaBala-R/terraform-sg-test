@@ -6,7 +6,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "sg-test"
+    bucket = "sg-test-state"
     key = "sg-test.tfstate"
     region = "ap-southeast-2"
     encrypt = true
